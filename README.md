@@ -1,4 +1,4 @@
-# To-Do List App
+# **To-Do List App**
 
 This is a simple to-do list app I built using HTML, CSS, and JavaScript.  
 It lets me add tasks, mark them as completed, and delete them.  
@@ -14,16 +14,22 @@ The tasks are saved in LocalStorage, so they stay even after refreshing or closi
 
 ## Preview
 
-![Preview](Screenshot-2025-11-25-151530.png)
+![Preview](preview.png)
 
 ## How to Run
 
 Just open `index.html` in any browser.  
 No setup or installation needed.
 
+## How It Works
+
+The app saves every task to LocalStorage whenever something changes.  
+When the page loads, it reads the saved data and rebuilds the list.
+
+
 ## Live Deployment
 
-](https://to-do-app-pi-lemon.vercel.app/)
+https://to-do-app-pi-lemon.vercel.app/
 
 ## Why I Built This
 
